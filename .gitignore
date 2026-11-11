@@ -1,0 +1,16 @@
+# Power BI: bộ nhớ đệm và cài đặt cục bộ
+**/.pbi/
+
+# Dữ liệu sinh ra khi chạy pipeline (tạo lại bằng python/export_clean_csv.py)
+data/crypto_1h_clean.csv
+
+# File chỉ dùng trên máy bạn, không đưa lên repo
+_local_only/
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# File tạm của Office
+~$*
